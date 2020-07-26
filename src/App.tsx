@@ -1,6 +1,10 @@
 import React from 'react'
 
 interface TodoListItemProps {
+    todo: {
+        text:string;
+        complete:boolean;
+    };
     
 }
 
